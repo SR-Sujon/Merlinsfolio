@@ -35,27 +35,43 @@ const NavBar = () => {
                 <CustomLink href='/contact' title="Contact" className='ml-4' />
             </nav>
 
-
-
             <nav className='flex items-center justify-center flex-wrap'>
 
                 <motion.a href='https://github.com/SR-Sujon' target={"_blank"}
                     whileHover={{ y: -2 }}
+                    className='w-6 mr-3'
+                    whileTap={{ scale: 0.9 }}
                 >
                     <GithubIcon />
                 </motion.a>
-                <a href='https://www.linkedin.com/in/sr-sujon/' target={"_blank"}>
+                <motion.a href='https://www.linkedin.com/in/sr-sujon/' target={"_blank"}
+                    whileHover={{ y: -2 }}
+                    className='w-6 mr-3'
+                    whileTap={{ scale: 0.9 }}
+                >
                     <LinkedInIcon />
-                </a>
-                <a href='https://twitter.com/sr_cyb' target={"_blank"}>
+                </motion.a>
+                <motion.a href='https://twitter.com/sr_cyb' target={"_blank"}
+                    whileHover={{ y: -2 }}
+                    className='w-6 mr-3'
+                    whileTap={{ scale: 0.9 }}
+                >
                     <TwitterIcon />
-                </a>
-                <a href='/ target={"_blank"}'>
+                </motion.a>
+                <motion.a href='/ target={"_blank"}'
+                    whileHover={{ y: -2 }}
+                    className='w-6 mr-3'
+                    whileTap={{ scale: 0.9 }}
+                >
                     <PinterestIcon />
-                </a>
-                <a href='https://dribbble.com/Saidur49' target={"_blank"}>
+                </motion.a>
+                <motion.a href='https://dribbble.com/Saidur49' target={"_blank"}
+                    whileHover={{ y: -2 }}
+                    className='w-6 mr-3'
+                    whileTap={{ scale: 0.9 }}
+                >
                     <DribbbleIcon />
-                </a>
+                </motion.a>
             </nav>
 
             <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
