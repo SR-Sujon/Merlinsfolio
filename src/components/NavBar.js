@@ -21,6 +21,8 @@ const CustomLink = ({ href, title, className = "" }) => {
     )
 }
 
+
+
 const NavBar = () => {
     return (
         <header
@@ -46,28 +48,28 @@ const NavBar = () => {
                 </motion.a>
                 <motion.a href='https://www.linkedin.com/in/sr-sujon/' target={"_blank"}
                     whileHover={{ y: -2 }}
-                    className='w-6 mr-3'
+                    className='w-6 mx-3'
                     whileTap={{ scale: 0.9 }}
                 >
                     <LinkedInIcon />
                 </motion.a>
                 <motion.a href='https://twitter.com/sr_cyb' target={"_blank"}
                     whileHover={{ y: -2 }}
-                    className='w-6 mr-3'
+                    className='w-6 mx-3'
                     whileTap={{ scale: 0.9 }}
                 >
                     <TwitterIcon />
                 </motion.a>
                 <motion.a href='/ target={"_blank"}'
                     whileHover={{ y: -2 }}
-                    className='w-6 mr-3'
+                    className='w-6 mx-3'
                     whileTap={{ scale: 0.9 }}
                 >
                     <PinterestIcon />
                 </motion.a>
                 <motion.a href='https://dribbble.com/Saidur49' target={"_blank"}
                     whileHover={{ y: -2 }}
-                    className='w-6 mr-3'
+                    className='w-6 ml-3'
                     whileTap={{ scale: 0.9 }}
                 >
                     <DribbbleIcon />

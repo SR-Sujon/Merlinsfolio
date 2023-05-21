@@ -1,8 +1,7 @@
 HOME PAGE: 
 
-- Turning Vision Into Reality With Code And Design. 
-- As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+- Fusing Imagination, Coding, and Design to Manifest Dreams into Digital Reality.
+- As a professional full-stack developer, data science enthusiast, and AI collaborator, I am committed to developing ideas into creative online apps. Furthermore, I am actively involved in developing cutting-edge models to investigate the domains of artificial intelligence. Explore my most recent projects and writings, which demonstrate my experience in React.js, web development, and the amazing area of data science and AI.
 
 --------------------------------------------------------------
 
