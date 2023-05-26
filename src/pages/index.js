@@ -25,7 +25,7 @@ export default function Home() {
               <AnimatedText text="Fusing Imagination, Coding, and Design to Manifest Dreams into Digital Reality." className='!text-6xl !text-left'>
 
               </AnimatedText>
-              <p className='my-4 text-base font-medium'>As a professional full-stack developer, data science enthusiast, and AI collaborator, I am committed to developing ideas into creative online apps. Furthermore, I am actively involved in developing cutting-edge models to investigate the domains of artificial intelligence. Explore my most recent projects and writings, which demonstrate my experience in React.js, web development, and the amazing area of data science and AI.</p>
+              <p className='my-4 text-base font-medium'>As an aspiring self-taught full-stack developer, data science enthusiast, and Ai collaborator, I am committed to developing ideas into creative online apps with Ai. Explore my most recent projects and writings, which demonstrate my experience in React.js, web development, and the amazing area of Ai.</p>
 
               <div className='flex items-center self-start mt-2'>
                 <Link href="./dummy.pdf" target='_blank'
