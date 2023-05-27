@@ -15,8 +15,7 @@ const CustomLink = ({ href, title, className = "" }) => {
             < span className={`
             h-[1px] inline-block bg-dark absolute
             left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300
-            ${router.asPath === href ? 'w-full' : 'w-0'}
-            `}>&nbsp;</span>
+            ${router.asPath === href ? 'w-full' : 'w-0'}`}>&nbsp;</span>
         </Link >
     )
 }

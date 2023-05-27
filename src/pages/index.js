@@ -5,6 +5,10 @@ import profilePic from "../../public/images/profile/srs-profile-pic-3.png"
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
+import Hireme from '@/components/Hireme'
+import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg'
+import abstractBg from '../../public/images/Abstract-background-2K.png'
+import ringBg from '../../public/images/ring-bg.png'
 
 export default function Home() {
   return (
@@ -15,35 +19,50 @@ export default function Home() {
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen">
         <Layout className='pt-0'>
-          <div className='flex items-center justify-between w-full'>
-            <div className='w-1/2 '
-            >
-              <Image src={profilePic} alt='Saidur Rahmans Portfolio' className='w-[70%] h-auto' />
+          <div className='relative'>
+            <div className='flex w-[50%] h-auto opacity-50 z-0 '>
+              <Image src={abstractBg} alt='Image' />
             </div>
-            <div className='w-[50%] flex flex-col items-center self-center'>
+            <div className='flex items-center justify-between w-full z-5 top-0 absolute pt-32 '>
+              <div className='w-[100%] h-auto relative pl-10'>
+                <div className='w-[60%] h-auto relative z-0 ml-10 animate-spin-very-slow'>
+                  <Image src={ringBg} alt='bg' />
+                </div>
 
-              <AnimatedText text="Fusing Imagination, Coding, and Design to Manifest Dreams into Digital Reality." className='!text-6xl !text-left'>
+                <div className='w-[100%] h-auto top-0 absolute z-10 ml-20 mt-4'
+                >
+                  <Image src={profilePic} alt='Saidur Rahmans Portfolio' className='w-[50%] h-auto ' />
+                </div>
+              </div>
+              <div className='w-[90%] flex flex-col items-center self-center'>
 
-              </AnimatedText>
-              <p className='my-4 text-base font-medium'>As an aspiring self-taught full-stack developer, data science enthusiast, and Ai collaborator, I am committed to developing ideas into creative online apps with Ai. Explore my most recent projects and writings, which demonstrate my experience in React.js, web development, and the amazing area of Ai.</p>
+                <AnimatedText text="Fusing Imagination, Coding, and Design to Manifest Dreams into Digital Reality." className='!text-6xl !text-left'>
 
-              <div className='flex items-center self-start mt-2'>
-                <Link href="./dummy.pdf" target='_blank'
-                  className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark'
-                  download={true}
-                >Resume <LinkArrow className={"w-6 ml-1 "}></LinkArrow>
-                </Link>
+                </AnimatedText>
+                <p className='my-4 text-base font-medium'>As an aspiring self-taught full-stack developer, data science & Ai enthusiast, I am committed to developing ideas into creative online apps. Explore my most recent projects and writings, which demonstrate my experience in the amazing field of Web Tech and Ai. </p>
 
-                <Link href="mailto:sr.sujon.cyb@gmail.com" target='_blank'
-                  className='flex items-center ml-4 text-lg font-medium capitalize bg-light text-dark px-6 rounded-lg underline border-2 border-solid border-transparent hover:border-dark '
-                >Contact</Link>
+                <div className='flex items-center self-start mt-2'>
+                  <Link href="./dummy.pdf" target='_blank'
+                    className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark'
+                    download={true}
+                  >Resume <LinkArrow className={"w-6 ml-1 "}></LinkArrow>
+                  </Link>
+
+                  <Link href="mailto:sr.sujon.cyb@gmail.com" target='_blank'
+                    className='flex items-center ml-4 text-lg font-medium capitalize bg-light text-dark px-6 rounded-lg underline border-2 border-solid border-transparent hover:border-dark '
+                  >Contact</Link>
+                </div>
+
               </div>
 
             </div>
-
           </div>
         </Layout>
-      </main>
+        <Hireme />
+        <div className='absolute right-8 bottom-8 inline-block w-24'>
+          <Image src={lightBulb} alt='LightBulb' className='w-full h-auto' />
+        </div>
+      </main >
     </>
   )
 }
